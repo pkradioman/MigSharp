@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Title>Mig#</Title>
-    <Version>4.0.1</Version>
+    <Version>4.0.1.1</Version>
     <Authors>dradovic</Authors>
     <Company />
     <Description>A .NET framework for multi-database platform migrations, versioning and schema modifications. Write database migrations and/or schema modifications in your favorite .NET language and let Mig# generate the platform-dependent SQL code and update your schema. Features: fluent interface, automatic versioning, multi-module support, scripting to SQL files, validation framework for portability issues, suport for SQL Server, Oracle, MySQL, Teradata, SQLite, legacy integration and more.</Description>
@@ -11,7 +11,10 @@
     <PackageLicenseUrl>https://github.com/dradovic/MigSharp/blob/master/LICENSE.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/dradovic/MigSharp</PackageProjectUrl>
     <PackageTags>mig# migsharp schema migration database agnostic fluent versioning sql oracle teradata sqlite mysql</PackageTags>
-    <PackageReleaseNotes>4.0.1
+    <PackageReleaseNotes>4.0.1.1
+- Add SqlCe4 Provider support
+
+4.0.1
 - Added lost xml-doc file
 
 4.0.0
@@ -36,6 +39,7 @@ BUG FIXES:
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Configurations>Debug;Release;CodeAnalysis</Configurations>
     <CodeAnalysisRuleSet>..\MigSharp.ruleset</CodeAnalysisRuleSet>
+    <AssemblyVersion>4.0.1.1</AssemblyVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
