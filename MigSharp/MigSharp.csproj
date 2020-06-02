@@ -9,7 +9,7 @@
     <Description>A .NET framework for multi-database platform migrations, versioning and schema modifications. Write database migrations and/or schema modifications in your favorite .NET language and let Mig# generate the platform-dependent SQL code and update your schema. Features: fluent interface, automatic versioning, multi-module support, scripting to SQL files, validation framework for portability issues, suport for SQL Server, Oracle, MySQL, Teradata, SQLite, legacy integration and more.</Description>
     <Copyright />
     <PackageLicenseUrl>https://github.com/dradovic/MigSharp/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/dradovic/MigSharp</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/pkradioman/MigSharp.git</PackageProjectUrl>
     <PackageTags>mig# migsharp schema migration database agnostic fluent versioning sql oracle teradata sqlite mysql</PackageTags>
     <PackageReleaseNotes>4.0.1.1
 - Add SqlCe4 Provider support
